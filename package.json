@@ -1,0 +1,31 @@
+{
+  "name": "fetch-remote-dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./test/index.js"
+  },
+  "bin": {
+    "fetch-remote-dir": "./bin/index.js"
+  },
+  "keywords": [
+    "fetch-remote-dir",
+    "fetch",
+    "download",
+    "remote",
+    "files",
+    "download-remote",
+    "remote-files"
+  ],
+  "author": "qintx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkiarest/fetch-remote-dir.git"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "superagent": "^3.5.2"
+  }
+}
